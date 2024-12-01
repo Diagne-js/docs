@@ -24,7 +24,7 @@ export const homepage = () => {
     return`
       ${welcome()}
       <div>
-         <article d-for="argument in arguments" style="margin:30px 0;padding:0 50px;">
+         <article d-for="argument in arguments" style="margin:60px 0;padding:0 50px;">
              <h2>{ argument.title }</h2>
              <p>{ argument.body }</p>
          </article>
