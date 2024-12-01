@@ -21,63 +21,82 @@
 
 .light{
  background:linear-gradient(#ebebeb 20%,#fec60074 100%);
-  .article{
-     background: white;
-  }
-  .step h2{
-    color:rgb(55,55,51);
-   }
 }
 .dark{
   background: black;
    .shadow{opacity:1;}
-    .article{
-    background: #181818;
-  }
 }
 
+
+header{
+  width:100%;
+  height:50px;
+  border-bottom:solid 0.5svh var(--primary);
+  display:flex;
+  justify-content:space-between;
+  padding:0 15px;
+  .logo{
+    display:flex;
+  img{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+  }
+  .title{
+    font-size:1.5vh;
+    color: var(--primary);
+    display:flex;
+    align-items:center;
+  }
+}nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  width: 220px;
+  color:var(--t-color);
+  }
 button{
-  padding: 20px;
-  border-radius:8px;
-  background: var(--primary-linear);
-  color: white;
-  margin: 10px 0;
-  position: relative;
-  left: 50%;
-  translate: -50%;
+  background:none;
+ .dark-mode-btn{
+    border-radius:50%;
+    width:45px;
+    height: 45px;
+ }
 }
+
+}
+
 
 main{
   position: relative;
   padding-bottom: 30px;
-  img{
-    width: 90%;
-    height: 35vh;
-    object-fit:cover;
-    margin: 2px 0;
-    position: relative;
-    left: 50%;
-    translate:-50%;
-    
-   }
+  
   .welcome{
     padding: 80px 10px 30px 10px;
+    position:relative;
+    overflow:auto;
+    img{
+      height: 350px;
+      width: 350px;
+      position:relative;
+      left:50%;
+      translate:-50%;
+    }
+    .getStartedBtn{
+        background:var(--primary-linear);
+        color: var(--t-color);
+        padding:15px 25px;
+        border-radius:5px;
+        margin:30px auto;
+        display:inline-block;
+        position: relative;
+        left:50%;
+        translate:-50%;
+    }
   }
-  .step{
-    width: 90%;
-    max-width: 600px;
-    padding: 20px 5px;
-    border:solid 2px rgb(255,165,0);
-    position:relative ;
-    left:50%;
-    translate:-50%;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow:1px 2#42445Apx 2px rgba(255,165,0);
-    h2{
-    text-align:center ;
-  }
-  }
+
+
   .shadow{
      width: 60%;
      min-width:240px;
@@ -114,18 +133,12 @@ main{
       font-weight: 500;
    }
   p{
+    font-size:2vmin;
     color: var(--t-color);
-    font-size:3vmin;
   }
-}
-  .article{
-    padding:15px 0;   
-    p{
-        font-size:2.5vmin;
-    }
-    .code{
-      background: #00182fc9;
-      color:#00c0ff;
-      padding: 1px 4px;
-    }
+  h4{
+    color: var(--t-color);
+    font-size:8vmin;
+    font-weight: 500;
+  }
 }

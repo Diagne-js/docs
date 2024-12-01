@@ -2,7 +2,7 @@ import {v} from '../v/v.js'
 import {renderObjectsTree} from '../utils/utils.js'
 
 export const attributes = [
- "source",
+ "src",
   "class",
   "id",
   "type",

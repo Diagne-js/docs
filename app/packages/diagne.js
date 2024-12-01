@@ -20,5 +20,6 @@ function render() {
   dBind()
   dFor()
   dynamicAttr()
+  //document.body.innerText = app.innerHTML 
 }
 render()
