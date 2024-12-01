@@ -5,7 +5,7 @@ import {v} from '../../packages/module.js'
 export function welcome(content) {
   return`
      <section class="welcome">
-       <div class="shadow"></div>
+        <div class="shadow"></div>
         <img src="./src/assets/diagne.png" />
         <h1>Diagne</h1>
         <h4>The lightweight and useful javascript framework</h4>
