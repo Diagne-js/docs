@@ -15,6 +15,9 @@ v.arguments = [
   {
     title: "scalable",
     body: "if you want to make websites as a freelance, a startup or an society, we are here for you!"
+  },{
+    title:"compatible",
+    body:"We have chosen to use '.js' file extension instead of '.di' for reason of compatibility with other tool. With this way, we ensure a simple integration with other libraries"
   }
 ]
 
