@@ -21,12 +21,20 @@
 
 .light{
  background:linear-gradient(#ebebeb 20%,#fec60074 100%);
+ h2{
+  color:burlywood;
+ }
 }
 .dark{
   background: black;
-   .shadow{opacity:1;}
+   .shadow{
+    opacity:1;
+  }
 }
 
+body{
+  padding-top:100px;
+}
 
 header{
   width:100%;
@@ -35,6 +43,9 @@ header{
   display:flex;
   justify-content:space-between;
   padding:0 15px;
+  position:fixed;
+  top:0;
+  z-index:5;
   .logo{
     display:flex;
   img{
@@ -73,26 +84,25 @@ main{
   padding-bottom: 30px;
   
   .welcome{
-    padding: 80px 10px 50px 10px;
+    padding: 80px 10px 90px 10px;
     position:relative;
     overflow:auto;
+    text-align:center;
     img{
       height: 550px;
       width: 550px;
       position:relative;
-      left:50%;
-      translate:-50%;
+  
     }
     .getStartedBtn{
         background:var(--primary-linear);
         color: var(--t-color);
-        padding:15px 25px;
-        border-radius:5px;
-        margin:30px auto;
+        padding: 25px 75px;
+        border-radius:20px;
+        margin:40px auto;
         display:inline-block;
-        position: relative;
-        left:50%;
-        translate:-50%;
+        font-size:40px;
+        box-shadow:10px 7px 13px var(--primary);
     }
   }
 
@@ -130,7 +140,8 @@ main{
      -webkit-background-clip:text;
      background-image: var(--primary-linear);
      padding:15px 10px;  
-      font-weight: 500;
+     font-weight: 500;
+     font-size:3vmin ;
    }
   p{
     font-size:2vmin;
