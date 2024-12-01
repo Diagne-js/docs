@@ -11,7 +11,7 @@ v.content = {
 }
 v.changeTheme = () => {
   v.theme = v.theme == 'light' ? 'dark' : 'light'
-  v.src = v.theme == 'light' ? './src/assets/moon.svg' : './src/assets/sun.svg'
+  v.src = v.theme == 'light' ? './app/src/assets/moon.svg' : './app/src/assets/sun.svg'
 }
 
 export const App = () => {
