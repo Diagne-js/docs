@@ -2,7 +2,7 @@ import { v, observe, set } from '../packages/module.js'
 
 
 v.theme = "dark"
-v.src = "./src/assets/sun.svg"
+v.src = "./app/src/assets/sun.svg"
 v.content = {
   title: "You did it",
   body: `You have joined the freedom and clear js framework       <br> Below is the steps to use 
@@ -19,7 +19,7 @@ export const App = () => {
     <header d-class="[ theme ]">
 
        <div class="logo">
-        <img src="./src/assets/diagne.png"/>
+        <img src="./app/src/assets/diagne.png"/>
         <p class="title">diagne.js</p>
         </div>
 
