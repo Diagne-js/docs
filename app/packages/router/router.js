@@ -29,7 +29,7 @@ if(target.tagName == "A" && target.getAttribute("to")) {
 // Initial page load and handling back/forward navigation
 
 window.addEventListener('DOMContentLoaded', () => {
-  renderRoute("/");
+  renderRoute(window.location.pathname);
   window.addEventListener('popstate', () => {
   renderRoute(window.location.pathname);
   });
