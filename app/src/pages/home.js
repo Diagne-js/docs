@@ -24,6 +24,8 @@ v.arguments = [
 
 export const homepage = () => {
     document.title = "diagneJs"
+    document.description = "Diagne js is the lightweight and flexible javascript framework for an higher UI with less code"
+    document.keywords = "diagne, diagne.js, diagneJs, javascript, js framework, front-end"
     return`
       ${welcome()}
       <div>
