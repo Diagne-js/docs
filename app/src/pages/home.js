@@ -28,11 +28,13 @@ export const homepage = () => {
     document.keywords = "diagne, diagne.js, diagneJs, javascript, js framework, front-end"
     return`
       ${welcome()}
-      <div >
+      <div id="parent">
+      <div class="args">
          <article d-for="argument in arguments" style="margin:60px 0;padding:0 50px;">
              <h2>{ argument.title }</h2>
              <p>{ argument.body }</p>
          </article>
+      </div>
       </div>
     `
 }

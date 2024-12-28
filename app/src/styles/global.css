@@ -63,7 +63,7 @@ header{
   justify-content:space-around;
   width: 300px;
   color:var(--t-color);
-  font-size:30px;
+  font-size:20px;
   }
 button{
   background:none;
@@ -95,7 +95,7 @@ main{
     .getStartedBtn{
         background:var(--primary-linear);
         color: var(--t-color);
-        padding: 25px 25px;
+        padding: 25px 35px;
         border-radius:20px;
         margin:30px auto;
         display:inline-block;
@@ -141,13 +141,22 @@ main{
      font-weight: 500;
      font-size:4vmin ;
    }
-  p{
-    font-size:2vmin;
-    color: var(--t-color);
-  }
+ 
   h4{
     color: var(--t-color);
     font-size:6vmin;
     font-weight: 500;
+  }
+}
+
+.parent{
+  text-align: center;
+}
+.args{
+  width: 800px;
+  margin:auto;
+  p{
+    font-size:3vmin;
+    color: var(--t-color);
   }
 }
