@@ -33,12 +33,12 @@
 }
 
 body{
-  padding-top:100px;
+  padding-top:80px;
 }
 
 header{
   width:100%;
-  height:120px;
+  height:70px;
   border-bottom:solid 0.5svh var(--primary);
   display:flex;
   justify-content:space-between;
@@ -50,11 +50,11 @@ header{
     display:flex;
     align-items:center;
   img{
-    width:85px;
-    height:85px;
+    width:65px;
+    height:65px;
   }
   .title{
-    font-size:1.5vh;
+    font-size:3vh;
     color: var(--primary);
   }
 }nav{
@@ -69,8 +69,8 @@ button{
   background:none;
  .dark-mode-btn{
     border-radius:50%;
-    width:80px;
-    height: 80px;
+    width:50px;
+    height: 50px;
  }
 }
 
@@ -82,24 +82,24 @@ main{
   padding-bottom: 30px;
   
   .welcome{
-    padding: 80px 10px 90px 10px;
+    padding: 40px 10px 90px 10px;
     position:relative;
     overflow:auto;
     text-align:center;
+    height:100svh;
     img{
-      height: 550px;
-      width: 550px;
+      width: 250px;
       position:relative;
-  
+      object-fit:cover;
     }
     .getStartedBtn{
         background:var(--primary-linear);
         color: var(--t-color);
-        padding: 25px 75px;
+        padding: 25px 25px;
         border-radius:20px;
-        margin:40px auto;
+        margin:30px auto;
         display:inline-block;
-        font-size:40px;
+        font-size:20px;
         box-shadow:10px 7px 13px var(--primary);
     }
   }
@@ -126,7 +126,7 @@ main{
     -webkit-background-clip:text;
     background-image: var(--primary-linear);
     margin-bottom:50px ;
-       font-size:12vmin;
+       font-size:7vmin;
        padding-top:2vh;
        font-family: "Afacad Flux", sans-serif;
        font-optical-sizing: auto;
@@ -139,7 +139,7 @@ main{
      background-image: var(--primary-linear);
      padding:15px 10px;  
      font-weight: 500;
-     font-size:3vmin ;
+     font-size:4vmin ;
    }
   p{
     font-size:2vmin;
@@ -147,7 +147,7 @@ main{
   }
   h4{
     color: var(--t-color);
-    font-size:8vmin;
+    font-size:6vmin;
     font-weight: 500;
   }
 }
