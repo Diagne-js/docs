@@ -53,6 +53,15 @@ h1{
      font-weight: 500;
      font-size:4vmin ;
    }
+
+h2{
+     color:rgb(245,235,230); 
+     -webkit-background-clip:text;
+     background-image: var(--primary-linear);
+     padding:15px 10px;  
+     font-weight: 500;
+     font-size:3vmin ;
+}
  
   h4{
     color: var(--t-color);
