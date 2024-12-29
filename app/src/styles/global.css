@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@1,655&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0;
@@ -32,8 +32,38 @@
   }
 }
 
+
+h1{
+    text-align:center;
+    color:transparent; 
+    -webkit-background-clip:text;
+    background-image: var(--primary-linear);
+    font-size:7vmin;
+    padding:3vh;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+  }
+  h2{
+     color:rgb(245,235,230); 
+     -webkit-background-clip:text;
+     background-image: var(--primary-linear);
+     padding:15px 10px;  
+     font-weight: 500;
+     font-size:4vmin ;
+   }
+ 
+  h4{
+    color: var(--t-color);
+    font-size:6vmin;
+    font-weight: 500;
+  }
+
+
+
 body{
-  padding-top:80px;
+  padding-top:70px;
 }
 
 header{
@@ -45,6 +75,8 @@ header{
   padding:0 25px;
   position:fixed;
   top:0;
+  background: #3dffc700;
+  backdrop-filter: blur(20px);
   z-index:5;
   .logo{
     display:flex;
@@ -120,33 +152,7 @@ main{
      opacity:0;
      transition:0.5s ease-in-out;
   } 
-   h1{
-    text-align:center;
-    color:transparent; 
-    -webkit-background-clip:text;
-    background-image: var(--primary-linear);
-    margin-bottom:50px ;
-       font-size:7vmin;
-       padding-top:2vh;
-       font-family: "Afacad Flux", sans-serif;
-       font-optical-sizing: auto;
-       font-style: normal;
-       font-variation-settings:"slnt" 0;
-  }
-  h2{
-     color:rgb(245,235,230); 
-     -webkit-background-clip:text;
-     background-image: var(--primary-linear);
-     padding:15px 10px;  
-     font-weight: 500;
-     font-size:4vmin ;
-   }
- 
-  h4{
-    color: var(--t-color);
-    font-size:6vmin;
-    font-weight: 500;
-  }
+   
 }
 
 .parent{
