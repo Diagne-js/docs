@@ -200,17 +200,14 @@ article{
      }
     .args,article{
       width: 300px;
-      p{
-          font-size: 3.6vmin;
-      }
       h2{
-          font-size: 4.7vmin;
+          font-size: 5.7vmin;
       }
       h3{
-          font-size:4vmin;
+          font-size:4.7vmin;
       }
       p{
-          font-size: 3.5vmin;
+          font-size: 4vmin;
       }
     }
  }
