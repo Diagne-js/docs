@@ -185,19 +185,19 @@ article{
          padding: 0 7px;
          .logo{
             img{
-               width:40px;
-               height: 40px;
+               width:50px;
+               height: 50px;
             }
            .title{
-               font-size: 10px;
+               font-size: 20px;
             }
          }
          nav{
              font-size: 15px;
          }
           button .dark-mode-btn{
-              width: 20px;
-              height:20px;
+              width: 26px;
+              height:26px;
           }
      }
     .args,article{
