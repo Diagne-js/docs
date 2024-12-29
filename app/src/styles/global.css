@@ -188,7 +188,7 @@ article{
              height: 40px;
           }
          .title{
-             font-size: 1vh;
+             font-size: 14px;
          }
          nav{
              font-size: 15px;
@@ -205,6 +205,12 @@ article{
       }
       h2{
           font-size: 4.7vmin;
+      }
+      h3{
+          font-size:4vmin;
+      }
+      p{
+          font-size: 3.5vmin;
       }
     }
  }
