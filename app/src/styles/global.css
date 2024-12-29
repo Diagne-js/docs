@@ -158,11 +158,15 @@ main{
 .parent{
   text-align: center;
 }
-.args{
+.args,article{
   width: 800px;
   margin:auto;
   p{
     font-size:3vmin;
     color: var(--t-color);
   }
+}
+
+article{
+    margin: 50px 0;
 }
