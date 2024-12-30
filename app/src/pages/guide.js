@@ -37,7 +37,9 @@ This is the syntax: <code> const variableName = create(value, "variableName")</c
 <article>
 <h3>The specials attributes</h3>
 <p>
-samely to <a href="https://vuejs.org">vue js</a>
+   samely to <a href="https://vuejs.org">Vue.js</a> and <a href="https://svelte.dev">Svelte</a>, we have specials attributes like
+   <code>if</code>, <code>for</code> , <code>show</code> and so on. The specials attributes will help you to did specifics actions 
+   without needing to add javascript.
 </p>
 
 </article>
