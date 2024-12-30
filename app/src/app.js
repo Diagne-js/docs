@@ -17,16 +17,15 @@ v.changeTheme = () => {
 export const App = () => {
   return `
     <header d-class="[ theme ]">
-
-       <div class="logo">
-        <img src="./app/src/assets/diagne.png"/>
-        <p class="title">diagne.js</p>
-        </div>
-
-        <nav>
-           <a to='/'>home</a>
-           <a to='/guide'>guide</a>
-        </nav>
+     <nav>
+        <a to='/'> 
+          <div class="logo">
+            <img src="./app/src/assets/diagne.png"/>
+            <p class="title">diagne.js</p>
+          </div>
+        </a>
+        <a to='/guide'>guide</a>
+      </nav>
 
         <button d-click="changeTheme">
            <img class="dark-mode-btn" d-src="[ src ]" alt="dark/light"/>
