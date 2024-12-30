@@ -18,11 +18,9 @@ export const App = () => {
   return `
     <header d-class="[ theme ]">
      <nav>
-        <a to='/'> 
-          <div class="logo">
+        <a to='/' class="logo"> 
             <img src="./app/src/assets/diagne.png"/>
             <p class="title">diagne.js</p>
-          </div>
         </a>
         <a to='/guide'>guide</a>
       </nav>
