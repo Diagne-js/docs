@@ -105,6 +105,7 @@ header{
   padding: 15px;
   color:var(--t-color);
   font-size:20px;
+  gap:6px;
   }
 button{
   background:none;
