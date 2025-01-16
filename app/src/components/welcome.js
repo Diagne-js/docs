@@ -7,7 +7,7 @@ export function welcome(content) {
      <section class="welcome">
         <div class="shadow"></div>
         <img src="./app/src/assets/diagne.png" />
-        <h1>Diagne Js</h1>
+        <h1>Lamine Js</h1>
         <h4>The lightweight and useful javascript framework</h4>
         <a class="getStartedBtn" to="/guide">get started</a>
      </section>
