@@ -1,13 +1,1 @@
-import {v} from '../v/v.js'
-
-
-export default function setEvents() {
- let events = Object.keys(window).filter(e => e[0]=="o" && e[1] == "n")
- events.forEach((event,i) => {
- const attr = event.slice(2,event.length)
-   document.querySelectorAll(`[d-${attr}]`).forEach((el,j) => {
-   const func = el.getAttribute(`d-${attr}`);
-      el[event] = v[func]
-   })
- })
-}
+import{v as t}from"../v/v.js";export default function e(){Object.keys(window).filter((t=>"o"==t[0]&&"n"==t[1])).forEach(((e,o)=>{const c=e.slice(2,e.length);document.querySelectorAll(`[d-${c}]`).forEach(((o,r)=>{const n=o.getAttribute(`d-${c}`);o[e]=t[n]}))}))}
