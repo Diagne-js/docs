@@ -4,7 +4,7 @@ export const guide = () => {
    // document.querySelector("meta[name='keywords']").content = "diagne js, guide, learn diagne.js, guide of diagne.js, diagne"
     return`
     <main class="parent">
-<h1>guide</h1>
+<h1>Guide</h1>
 <article>
 <h2>What is diagne js</h2>
 <p>
