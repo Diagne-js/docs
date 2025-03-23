@@ -1,5 +1,5 @@
 export const notFound = () => {
-  const linkStyle = "display: block;width: 200px; height: 80px; border: solid 3px white; border-radius: 10px; margin: 30px 10px; display: flex; justify-content: center; align-items: center; font-size: 1.5vh;"
+  const linkStyle = "display: block;width: 350px; height: 50px; border: solid 3px white; border-radius: 10px; margin: 30px 10px; display: flex; justify-content: center; align-items: center; font-size: 1.1vh;"
   
   return `
     <h1>404</h1>
