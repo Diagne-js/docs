@@ -31,7 +31,10 @@
     opacity:1;
   }
 }
-
+p{
+    font-size:3vmin;
+    color: var(--t-color);
+}
 
 h1{
     text-align:center;
